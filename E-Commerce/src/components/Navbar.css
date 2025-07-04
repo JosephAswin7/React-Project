@@ -1,0 +1,84 @@
+.navbar{
+ 
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=0a6280&c2=270121&gt=c&gd=dtl
+*/
+background: #0A6280;
+background: conic-gradient(from 315deg, #0A6280, #270121);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 1rem 2rem;
+     position: sticky;
+     top: 0;
+     z-index: 100;
+     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.navbar-logo{
+    font-size: 2rem;
+  font-weight: bold;
+  color: #00dfc4;
+}
+.navbar > .navbar-logo> span{
+  font-style: italic;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+}
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.navbar-links a {
+  position: relative;
+  padding: 5px 0;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease ;
+}
+
+.navbar-links a:hover {
+  color: yellow;
+}
+.navbar-links li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color:#00c0ad; 
+  transition: width 0.5s ease;
+}
+
+.navbar-links li a:hover::after {
+  width: 100%;
+}
+.navbar-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.navbar-search input {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+.navbar-search button {
+  background-color: #00dfc4;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.navbar-search button:hover {
+  background-color: #00c0ad;
+}

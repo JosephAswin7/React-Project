@@ -1,0 +1,67 @@
+.details-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: flex-start;
+}
+.details-carousel {
+  flex: 1;
+  max-width: 400px;
+  background-color: white;
+  height: 400px;
+  margin-top: 30px;
+}
+
+
+.details-img {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+.details-content {
+  flex: 1;
+  color: white;
+  max-width: 600px;
+}
+
+.details-price {
+  font-size: 1.5rem;
+  color: #008060;
+  margin: 1rem 0;
+}
+.rating {
+  color: gold;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+.addToCrtbtn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 6px;
+    border: #008060;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.back-btn {
+  margin-top: 1rem;
+  background-color:#008060;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.reviews-section {
+  margin-top: 2rem;
+}
+
+.reviews-section h4 {
+  margin-bottom: 0.5rem;
+}
+
+.reviews-section ul {
+  padding-left: 1rem;
+  list-style-type: circle;
+}

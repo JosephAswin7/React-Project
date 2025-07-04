@@ -1,0 +1,39 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=171616&c2=2b5a5f&gt=r&gd=dcc
+*/
+background: #171616;
+background: radial-gradient(at center, #171616, #2B5A5F);
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 20px;
+}
+.category-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.category-filter button {
+  padding: 8px 16px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.category-filter button.active {
+  background-color: #0f4c8a;
+}
